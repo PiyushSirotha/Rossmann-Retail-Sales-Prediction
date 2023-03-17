@@ -17,20 +17,39 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 *   Promo2 - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating 
 *   Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2 
 *   PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
-Process to be done
-Business Problem
-Data Collection and Preprocessing - Importing important libraries and modules - Understanding the data - Treating the Null/Missing Values - Merging the Datasets
-Exploratory Data Analysis - Hypotheses - Categorical Features - Continuous Features - EDA Conclusion and Validating Hypotheses
-Feature Selection and Outlier Detection - Feature Engineering - Outlier Detection and Treatment
-Modeling - Train Test Split - Baseline Model - Decision Tree - Random Forest Model - Random Forest Hyperparameter Tuning - Random Forest Feature Importance
-Model Performance and Evaluation - Visualizing Model Performances - Random Forest vs Baseline Model - Random Forest Tuned vs Baseline and Random Forest Models
+# Process to be done
+# Business Problem
+# Data Collection and Preprocessing -
+* Importing important libraries and modules 
+* Understanding the data 
+* Treating the Null/Missing Values 
+* Merging the Datasets
+# Exploratory Data Analysis 
+* Hypotheses 
+* Categorical Features 
+* Continuous Features -
+* EDA Conclusion and Validating Hypotheses
+# Feature Selection and Outlier Detection 
+* Feature Engineering 
+* Outlier Detection and Treatment
+# Modeling 
+* Train Test Split -
+* Baseline Model 
+* Decision Tree 
+* Random Forest Model 
+* Random Forest Hyperparameter Tuning 
+* Random Forest Feature Importance
+# Model Performance and Evaluation 
+* Visualizing Model Performances 
+* Random Forest vs Baseline Model 
+* Random Forest Tuned vs Baseline and Random Forest Models
 Store wise Sales Predictions
-Conclusion and Recommendations
-Conclusion:
-Closer competiton distance make stores more competitive and thus by using Promo codes can help them to boost their sales.
-Store Type affects the sales - Of all a,b,c,d store models 'b' type stores have the highest sales.
-Promo code can help increase in the competition and lead to more sales.
-Sales on 1 (Monday) and 5 (Friday) are the highest.
-Assortment level 'b' have the highest sales.
-Customers are definately attracted by Promo codes thus sales are higher when there is a Promo code in a Store
-Since most of the stores are closed on Holidays, the feature state holidays has no effect on sales
+# Conclusion and Recommendations
+###Conclusion:
+* Closer competiton distance make stores more competitive and thus by using Promo codes can help them to boost their sales.
+* Store Type affects the sales - Of all a,b,c,d store models 'b' type stores have the highest sales.
+* Promo code can help increase in the competition and lead to more sales.
+* Sales on 1 (Monday) and 5 (Friday) are the highest.
+* Assortment level 'b' have the highest sales.
+* Customers are definately attracted by Promo codes thus sales are higher when there is a Promo code in a Store
+* Since most of the stores are closed on Holidays, the feature state holidays has no effect on sales
