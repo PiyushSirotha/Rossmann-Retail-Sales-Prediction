@@ -3,6 +3,11 @@ Our goal here is to forecast the sales for six weeks for each store and find out
 
 Problem Statement
 Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.You are provided with historical sales data for 1,115 Rossmann stores. The task is to forecast the "Sales" column for the test set. Note that some stores in the dataset were temporarily closed for refurbishment.
+
+# Business Problem
+Sales forecasting refers to the process of estimating demand for or sales of a particular product over a specific period of time. This project involves solving a real-world business problem of sales forecasting and building up a machine learning model for the same.
+Our goal here is to forecast the sales for six weeks for each store and find out the factors influencing it and recommend ways in order to improve the numbers.
+
 # Data Description
 * Id - Unique entry 
 * ID Store - an unique Id for each store Sales - Total sales for any given day (what we are going to predict) 
@@ -17,8 +22,7 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 *   Promo2 - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating 
 *   Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2 
 *   PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
-# Process to be done
-# Business Problem
+
 # Data Collection and Preprocessing -
 * Importing important libraries and modules 
 * Understanding the data 
